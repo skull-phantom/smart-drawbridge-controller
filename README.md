@@ -102,6 +102,17 @@ using the Arduino IDE.
 |      V6     | Angle slider |
 
 ---
+## Serial Angle Control
+
+The Raspberry Pi sends angle values from the Blynk mobile app slider to the Arduino using UART serial communication (TX/RX).
+
+The Arduino receives commands in the format:
+
+ANGLE:45
+
+This allows future implementation of automatic bridge angle positioning.
+
+---
 
 ## Future Improvements
 
