@@ -35,7 +35,7 @@ def v6_handler(value):
         angle = 90
 
     # stuur enkel getal
-    msg = f"{angle}\n"
+    msg = f"ANGLE:{angle}\n"
 
     arduino.write(msg.encode())
 
